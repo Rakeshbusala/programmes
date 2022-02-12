@@ -1,0 +1,14 @@
+amount=int(input("Enter the total amount : "))
+if amount>5000:
+  print("Your Discount is 10%")
+elif amount>3000:
+  print("Your Discount is 8%")
+elif amount>2000:
+  print("Your Discount is 5%")
+elif amount>1000:
+  print("Your Discount is 3%")
+
+>3000
+Tax 10%
+Else
+Tax 18%
