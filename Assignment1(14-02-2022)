@@ -1,0 +1,9 @@
+#Program for find number of digits in a given number!!!
+
+
+number=int(input("Enter the number : "))
+count=0
+while(numbr>0):
+ number=number//10
+ count=count+1
+print("The number of digits in given number is : ",count)
