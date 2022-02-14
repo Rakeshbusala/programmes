@@ -6,4 +6,4 @@ sum = 0
 while (number!=0):
     sum=sum+(number%10)
     number=number//10
-print("The sun of the digits in given number is : ",sum)
+print("The sum of the digits in given number is : ",sum)
