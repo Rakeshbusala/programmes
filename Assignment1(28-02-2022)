@@ -1,5 +1,19 @@
 # Write a program to odd occurences in a fiven list
-input
+'''input
 x=[1,2,3,2,1,3,2,1,2,2]
 
-output: [1,2]
+output: [1,2]'''
+# Write a program to print not reapting element in list
+x=[]
+n=int(input("Enter the n value :"))
+print("Enter the ",n,"elements into list :")
+for i in range(n):
+    e=int(input())
+    x.append(e)
+l=[]
+for i in x:
+ if i%2==0:
+  if x.count(i)==1:
+     l.append(i)
+print("Total list elements :",x)
+print("Not repeating elements in list :",l)
