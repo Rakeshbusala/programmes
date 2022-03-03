@@ -1,0 +1,5 @@
+# Write a program to print 10 to 1 using list comprehension.
+
+n=int(input('Enter tha n value :'))
+number = [ x for x in range(10,0,-1)]
+print(number)
