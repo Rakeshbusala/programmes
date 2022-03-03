@@ -1,0 +1,6 @@
+# Write a program to merge two tuples.
+
+tup1=(5,10,15)
+tup2=(20,25,30)
+tuple=tup1+tup2
+print(tuple)
