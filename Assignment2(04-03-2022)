@@ -1,1 +1,8 @@
 # Write a program to find second runner up of the person based on given data.
+
+ n = int(input())
+ arr = map(int, input().split())
+ arr = list(set(list(arr)))
+ ar = len(arr)
+ arr = sorted(arr)
+ print(arr[ar-2])
